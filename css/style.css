@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato-Medium, Helvetica, sans-serif;
+    
+}
+body{
+    background: #8423a1;
+}
+/*caixa onde os itens de principais itens estão*/
+#principal{
+    width: 755px;
+    margin: auto;
+    padding-top: 40px; 
+}
+@media (max-widht: 991.98px){
+    #principal{
+        width: 100%;
+        padding-top: 40px; 
+        background: #b4711a;
+        margin: auto;
+    }
+}
+#celular{
+    width: 380px;
+    /*display: inline-flex;*/
+}
+
+#celular img{
+    margin-left: -34px;
+    margin-top: -7px;
+}
+#carousel{
+    width: 240px;
+    height: 428px;
+    position: absolute;
+    margin: 95px 0px 0px 116.5px;
+}
+#tapa-buraco{
+    width: 40px;
+}
+#area-logar{
+    width: 350px;
+    float: right;
+    margin-top: 25px;
+}
+@media (max-width: 991.98px){
+    #area-logar{
+        /*background: #23a19b;*/
+        margin: 0px auto;
+    }
+}
+#secundaria{
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    padding: 20px 20px 0px 20px;
+}
+#logo{
+    width: 200px;
+    margin: auto;
+}
+#logo img{
+    width: 180px;
+    margin: auto;
+    padding-top: 3px;
+    padding-left: 8px;
+}
+#login{
+    padding: 44px 20px 20px 20px;
+}
+
+.input-login{
+    width: 100%;
+    border: 1px solid #DBDBDB;
+    margin: -9px auto;
+}
+.input-login::placeholder{
+    color: #FAFAFA;
+    font-size: 11px;
+}
+
+#botao{
+    background: #B2DFFC;
+    border: 1px solid #B2DFFC;
+    color: #ffffff;
+    font-size: small;
+    font-weight: bold;
+    margin: -1px 0px;
+}
+
+#divisao{
+    width: 87%;
+    margin: -23px auto 0px auto;
+    text-align: center;
+}
+#divisao hr{
+    display: inline-flex;
+    margin: auto -107px;
+    width: 98%;
+    border:none ;
+    border-top: 1.5px solid #DBDBDB ;
+    padding: 2px;
+}
+#divisao p{
+    display: inline;
+    margin-left: -22%;
+    background: #ffffff;
+    padding: 5px 17px;
+    font-size: small;
+    color: #8e8e8e;
+}
+/*área total para logar pelo facebook*/
+#logar-face{
+    /*background: #a9b412;*/
+    padding: 20px;
+    margin: 1px 20px -3px 20px;
+    text-align: center;
+}
+
+/*área onde está o logo e o link para acesso*/
+#acesso-face{
+    margin-bottom: 10px;
+}
+/*link para entrar via facebook*/
+#entrar{
+    text-decoration: none;
+    color: #385185;
+    font-size: small;
+    margin-left: 3px;
+}
+/*logo face*/
+#logar-face img{
+    margin-top: -1px;
+    width: 16px;
+}
+/*link para alterar senha*/
+#recuperacao a{
+    text-decoration: none;
+    color: #385185;
+    font-size: 11px;
+       
+}
+#cadastrar{
+    width: 100%;
+    border: 1px solid #DBDBDB;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: small;
+}
+#cadastrar a{
+    color: #7395F6;
+    font-weight: bold;
+}
+
+#aplicativo{
+    width: 100%;
+    padding: 11px 20px 20px 20px;
+    margin: 0px 20px 20px 0px;
+    text-align: center;
+    font-size: small;
+}
+#aplicativo a{
+    text-decoration: none;
+}
+.imagem{
+    width: 140px;
+    padding: 17.5px 2px 0px 2px;
+}
+
+#rodape{
+    width: 760px;
+    margin: 43px auto;
+    text-align: center;
+}
+#linha1{
+    padding-bottom: 3px;
+}
+#linha2{
+    margin-top: -6px;
+}
+#linha1 a{
+    text-decoration: none; 
+}
+#linha2 a{
+    text-decoration: none;
+}
+.links-uteis a{
+    font-size: 11.5px;
+    color: #8E8E9C;
+    padding: 0px 6px;
+}
+.links-uteis a:hover{
+    color: #8E8E9C;
+}
+#paises{
+    width: auto;
+    padding-right: 0px;
+    border: none;
+    display: inline;
+    font-size: 11.5px;
+    color: #8E8E9C;
+}
+#copyright{
+    display: inline;
+    font-size: 11.5px;
+    color: #8E8E9C;
+}
